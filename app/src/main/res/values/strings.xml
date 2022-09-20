@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MadLibs_AD</string>
+    <string name="app_title">Mad Libs</string>
+    <string name="app_story">Professor [Noun] wanted the class to [verb]. So, he [adverb] instructed the class to [verb] in their [plural noun] as [adjective] as they can. The class [adverb] did as they were told. They were a [adjective] class.</string>
+    <string name="app_story_1">Professor</string>
+    <string name="app_story_2">wanted the class to</string>
+    <string name="app_story_3">. So, he</string>
+    <string name="app_story_3.5">instructed</string>
+    <string name="app_story_4">the class to</string>
+    <string name="app_story_5">in their</string>
+    <string name="app_story_6">as</string>
+    <string name="app_story_7">as they can.</string>
+    <string name="app_story_7.5">The class</string>
+    <string name="app_story_8">did as they were told.</string>
+    <string name="app_story_8.5">They were a</string>
+    <string name="app_story_9">class.</string>
+    <string name="button_submit">Submit</string>
+    <string name="noun">noun</string>
+    <string name="verb">verb</string>
+    <string name="adverb">adverb</string>
+    <string name="adjective">adjective</string>
+    <string name="plural_noun">plural noun</string>
+</resources>
