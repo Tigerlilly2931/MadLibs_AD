@@ -12,23 +12,35 @@
         android:layout_width="420dp"
         android:layout_height="382dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="@string/childrenlaugh"
         android:src="@mipmap/kids_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="420dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/childrenlaugh"
+        android:src="@mipmap/kids_foreground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView16"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="@string/app_title"
         android:textColor="@color/dark_green_AD"
         android:textSize="34sp"
@@ -41,20 +53,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:text="@string/app_story_1"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
+        android:layout_marginEnd="820dp"
         android:text="@string/app_story_2"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/noun1"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -63,14 +77,14 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:background="@color/dark_green_AD"
         android:paddingHorizontal="8sp"
         android:paddingVertical="2sp"
         android:text="@string/noun"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -87,7 +101,7 @@
         android:text="@string/verb"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -99,7 +113,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_3"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/verb1"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -115,10 +129,10 @@
         android:text="@string/adverb"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
         android:id="@+id/textView10"
@@ -127,7 +141,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_4"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -144,7 +158,7 @@
         android:text="@string/verb"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
@@ -156,7 +170,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_5"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/verb2"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -172,7 +186,7 @@
         android:text="@string/noun"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView12"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -184,7 +198,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_6"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -200,7 +214,7 @@
         android:text="@string/adverb"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView14"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
@@ -212,7 +226,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_7"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/adjective1"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -228,7 +242,7 @@
         android:text="@string/adverb"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -241,7 +255,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/app_story_8"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/adverb2"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -258,7 +272,7 @@
         android:text="@string/adjective"
         android:textAlignment="center"
         android:textColor="@color/mint_AD"
-        android:textSize="20sp"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/textView22"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -271,7 +285,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/app_story_9"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/adjective2"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
@@ -284,7 +298,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/app_story_7.5"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView16"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
@@ -296,7 +310,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="@string/app_story_8.5"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -308,9 +322,9 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/app_story_3.5"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/adverb1"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
