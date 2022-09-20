@@ -30,19 +30,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="473dp"
+        android:layout_height="296dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/childrenthink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@mipmap/kidsquestion_foreground" />
+
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="284dp"
+        android:layout_width="378dp"
+        android:layout_height="327dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
+        android:scrollbarStyle="outsideInset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        app:layout_constraintVertical_bias="0">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,7 +71,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="8dp"
                 android:ems="10"
-                android:hint="Noun"
+                android:hint="@string/noun"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -66,7 +83,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Verb"
+                android:hint="@string/verb"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -77,7 +95,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Adverb"
+                android:hint="@string/adverb"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -88,7 +107,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Verb"
+                android:hint="@string/verb"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -99,10 +119,12 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Plural Noun"
+                android:hint="@string/plural_noun"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
-                android:textColor="@color/dark_green_AD" />
+                android:textColor="@color/dark_green_AD"
+                android:textColorHint="#00796B" />
 
             <EditText
                 android:id="@+id/editTextTextPersonName6"
@@ -110,7 +132,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Adverb"
+                android:hint="@string/adverb"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -121,7 +144,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Adverb"
+                android:hint="@string/adverb"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />
@@ -132,7 +156,8 @@
                 android:layout_height="48dp"
                 android:layout_marginTop="24dp"
                 android:ems="10"
-                android:hint="Adjective"
+                android:hint="@string/adjective"
+                android:importantForAutofill="no"
                 android:inputType="textPersonName"
                 android:textAlignment="center"
                 android:textColor="@color/dark_green_AD" />

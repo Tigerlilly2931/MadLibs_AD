@@ -7,7 +7,7 @@
     <string name="app_story_3">. So, he</string>
     <string name="app_story_3.5">instructed</string>
     <string name="app_story_4">the class to</string>
-    <string name="app_story_5">in their</string>
+    <string name="app_story_5">on their</string>
     <string name="app_story_6">as</string>
     <string name="app_story_7">as they can.</string>
     <string name="app_story_7.5">The class</string>
@@ -20,4 +20,6 @@
     <string name="adverb">adverb</string>
     <string name="adjective">adjective</string>
     <string name="plural_noun">plural noun</string>
+    <string name="childrenlaugh">3 children laughing</string>
+    <string name="childrenthink">children thinking</string>
 </resources>
